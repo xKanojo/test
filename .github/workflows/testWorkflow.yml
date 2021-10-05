@@ -4,7 +4,7 @@ jobs:                                         # Gruppierung der Jobs die der Wor
     hello-world:                              # Bennenung des ersten Jobs
       runs-on: ubuntu-latest                  # OS und Version des Runners wählen
       steps:                                  # Gruppierung aller Steps des Jobs "hello-world"
-        - name: Step1
+        - name: Step1                         # mit dem Keywort "name" lassen sich Workflows, Jobs & Steps benennen
           run: echo "hello world"             # das Keywort "run" sagt dem Job, dass ein Befehl auf dem Runner ausgeführt werden soll
         - name: Step2
           run: echo "test"
