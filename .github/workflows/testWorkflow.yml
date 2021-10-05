@@ -1,8 +1,0 @@
-name: test-workflow                     # Name des Workflows festlegen
-on: [push]                              # Event definieren welches Workflow triggert
-job:                                    # Gruppierung der Jobs die der Workflow ausführen soll
-  hello-world:                          # Bennenung des ersten Jobs
-    runs-on: ubuntu-lateset             # OS und Version des Runners wählen
-    steps:                              # Gruppierung aller Steps des Jobs "hello-world"
-      - run: echo "hello world"         # das Keywort "run" sagt dem Job, dass ein Befehl auf dem Runner ausgeführt werden soll
-      - run: echo "test"
