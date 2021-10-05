@@ -1,6 +1,6 @@
 name: testWorkflow                            # Name des Workflows festlegen
 on: [push]                                    # Event definieren, welches Workflow triggert
-  jobs:                                       # Gruppierung der Jobs die der Workflow ausführen soll
+jobs:                                         # Gruppierung der Jobs die der Workflow ausführen soll
     hello-world:                              # Bennenung des ersten Jobs
       runs-on: ubuntu-latest                  # OS und Version des Runners wählen
       steps:                                  # Gruppierung aller Steps des Jobs "hello-world"
