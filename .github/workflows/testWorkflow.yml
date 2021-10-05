@@ -5,7 +5,7 @@ jobs:                                         # Gruppierung der Jobs die der Wor
       runs-on: ubuntu-latest                  # OS und Version des Runners wählen
       steps:                                  # Gruppierung aller Steps des Jobs "hello-world"
         - name: Step1
-        - run: echo "hello world"             # das Keywort "run" sagt dem Job, dass ein Befehl auf dem Runner ausgeführt werden soll
+          run: echo "hello world"             # das Keywort "run" sagt dem Job, dass ein Befehl auf dem Runner ausgeführt werden soll
         - name: Step2
-        - run: echo "test"
+          run: echo "test"
         
